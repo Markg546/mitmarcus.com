@@ -3,21 +3,18 @@ import { Analytics } from '@vercel/analytics/react';
 //
 import { Metadata, Viewport } from 'next';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-
 import { notFound } from 'next/navigation';
 
-import { fontNoto, fontSans } from '@/config/fonts';
+import Footer from '@/components/footer';
+import Header from '@/components/header';
+import ScrollToTop from '@/components/scroll-to-top';
+// import { fontNoto, fontSans } from '@/config/fonts';
 import { siteConfig } from '@/config/site';
 import { locales } from '@/lib/navigation';
 import LocaleProvider from '@/providers/locale-provider';
 import '@/styles/app.css';
 import { cn } from '@/utils/cn';
 import { getLocalizedUrl } from '@/utils/url';
-import Footer from '@/components/footer';
-
-import Header from '@/components/header';
-import ScrollToTop from '@/components/scroll-to-top';
-
 
 export const viewport: Viewport = {
 	themeColor: {
@@ -88,7 +85,7 @@ const RootLayout = ({ children, params: { locale } }: RootLayoutProps) => {
 
 	return (
 		<html
-			className={cn(fontSans.variable, fontNoto.variable)}
+			// className={cn(fontSans.variable, fontNoto.variable)}
 			lang={locale}
 		>
 			<body className='min-h-screen'>
