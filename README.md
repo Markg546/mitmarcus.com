@@ -56,6 +56,7 @@ cd mitmarcus.com
 pnpm install
 pnpm run dev
 ```
+
 - Remove `content/*`
 - Edit `messages/*`
 - Create `.env` file similar to `.env.example`.
@@ -65,9 +66,3 @@ pnpm run dev
 
 - [ ] Make 3D model(use three.js) in Home Page
 - [x] Make analytics
-- [ ] Optimize the webpage
-- [ ] Debug new dependecies
-
-## ⚠️ Known problems
-
-- Updating breaks the webpage (DO NOT UPDATE)

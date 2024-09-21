@@ -3,6 +3,8 @@ import { Octokit } from 'octokit';
 
 import { siteConfig } from '@/config/site';
 
+export const dynamic = "force-dynamic";
+
 export const GET = async (req: NextRequest) => {
 	try {
 		const repoName = req.nextUrl.searchParams.get('repoName');

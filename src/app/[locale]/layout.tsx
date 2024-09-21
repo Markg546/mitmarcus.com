@@ -8,7 +8,7 @@ import { notFound } from 'next/navigation';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
 import ScrollToTop from '@/components/scroll-to-top';
-// import { fontNoto, fontSans } from '@/config/fonts';
+import { fontNoto, fontSans } from '@/config/fonts';
 import { siteConfig } from '@/config/site';
 import { locales } from '@/lib/navigation';
 import LocaleProvider from '@/providers/locale-provider';
@@ -16,6 +16,7 @@ import '@/styles/app.css';
 import { cn } from '@/utils/cn';
 import { getLocalizedUrl } from '@/utils/url';
 
+export const dynamic = 'force-dynamic';
 export const viewport: Viewport = {
 	themeColor: {
 		color: '#060609',
@@ -85,7 +86,7 @@ const RootLayout = ({ children, params: { locale } }: RootLayoutProps) => {
 
 	return (
 		<html
-			// className={cn(fontSans.variable, fontNoto.variable)}
+			className={cn(fontSans.variable, fontNoto.variable)}
 			lang={locale}
 		>
 			<body className='min-h-screen'>
