@@ -1,0 +1,36 @@
+{
+	"common": {
+		"latestPosts": "Ultimele postări",
+		"placeholder": "Caută articole",
+		"noResults": "Niciun rezultat de căutare",
+		"viewMore": "vezi mai multe",
+		"home": "Acasă",
+		"blog": "Blog",
+		"projects": "Proiecte",
+		"about": "Despre",
+		"noSupport": "Articolul nu suportă limba curentă.",
+		"backToBlog": "Înapoi la Blog",
+		"backToProjects": "Înapoi la Proiecte",
+		"backToHome": "Înapoi acasă",
+		"postViews": "<count></count> vizualizări",
+		"notFound": "Ne pare rău, pagina pe care o căutați nu există.",
+		"chooseLanguage": "alege limba",
+		"closeMenu": "Închide meniul",
+		"openMenu": "Deschide meniul",
+		"translations": "Traduceri"
+	},
+	"homePage": {
+		"description": "👋 Salut, sunt Marcus, un dezvoltator din Danemarca specializat în React și Next.js.",
+		"subTitle": "Dezvoltator"
+	},
+	"blogPage": {
+		"description": "Bine ați venit pe blogul meu! Aici îmi voi înregistra experiențele de învățare și cunoștințele în dezvoltarea software.",
+		"subTitle": "<highlight></highlight> postări despre cod și altele..."
+	},
+	"projectsPage": {
+		"description": "Prezentarea proiectelor mele."
+	},
+	"aboutPage": {
+		"description": "Despre experiența mea de muncă, înregistrările de învățare, etc..."
+	}
+}

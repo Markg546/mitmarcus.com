@@ -1,0 +1,36 @@
+{
+	"common": {
+		"latestPosts": "Seneste indlæg",
+		"placeholder": "Søg efter artikler",
+		"noResults": "Ingen søgeresultater",
+		"viewMore": "se mere",
+		"home": "Hjem",
+		"blog": "Blog",
+		"projects": "Projekter",
+		"about": "Om",
+		"noSupport": "Artiklen understøtter ikke det aktuelle sprog.",
+		"backToBlog": "Tilbage til Blog",
+		"backToProjects": "Tilbage til Projekter",
+		"backToHome": "Tilbage til Hjem",
+		"postViews": "<count></count> visninger",
+		"notFound": "Beklager, siden du leder efter findes ikke.",
+		"chooseLanguage": "vælg sprog",
+		"closeMenu": "Luk menu",
+		"openMenu": "Åbn menu",
+		"translations": "Oversættelser"
+	},
+	"homePage": {
+		"description": "👋 Hej, jeg er Marcus, en udvikler baseret i Danmark, der specialiserer sig i React og Next.js.",
+		"subTitle": "Udvikler"
+	},
+	"blogPage": {
+		"description": "Velkommen til min blog! Her vil jeg nedskrive min læringserfaring og viden om softwareudvikling.",
+		"subTitle": "<highlight></highlight> indlæg om kode og mere..."
+	},
+	"projectsPage": {
+		"description": "Fremvisning af mine projekter."
+	},
+	"aboutPage": {
+		"description": "Om min erhvervserfaring, læringsoptegnelser osv..."
+	}
+}

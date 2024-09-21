@@ -1,0 +1,36 @@
+{
+	"common": {
+		"latestPosts": "Latest Posts",
+		"placeholder": "Search articles",
+		"noResults": "No Search Results",
+		"viewMore": "view more",
+		"home": "Home",
+		"blog": "Blog",
+		"projects": "Projects",
+		"about": "About",
+		"noSupport": "The article does not support the current language.",
+		"backToBlog": "Back to Blog",
+		"backToProjects": "Back to Projects",
+		"backToHome": "Back to Home",
+		"postViews": "<count></count> views",
+		"notFound": "Sorry, the page you are looking for does not exist.",
+		"chooseLanguage": "chooseLanguage",
+		"closeMenu": "Close menu",
+		"openMenu": "Open Menu",
+		"translations": "Translations"
+	},
+	"homePage": {
+		"description": "👋 Heya, I'm Marcus, a developer based in Denmark who specializes in React and Next.js.",
+		"subTitle": "Developer"
+	},
+	"blogPage": {
+		"description": "Welcome to my blog! Here I will record my learning experience and knowledge in software development.",
+		"subTitle": "<highlight></highlight> posts about code and more..."
+	},
+	"projectsPage": {
+		"description": "Showcase of my projects."
+	},
+	"aboutPage": {
+		"description": "About my work experience, learning record, etc..."
+	}
+}
