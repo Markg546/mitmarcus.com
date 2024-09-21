@@ -2,12 +2,19 @@ const purgecss = require('@fullhuman/postcss-purgecss')
 
 module.exports = {
   plugins: [
-    require('postcss-import'),
-    require('tailwindcss/nesting'),
-    require('tailwindcss'),
-    require('autoprefixer'),
-    purgecss({
-      content: ['./**/*.html']
-    }),
+    // A plugin that does not require configuration:
+    'postcss-import',
+
+    // Tailwind CSS with nesting
+    'tailwindcss/nesting',
+    'tailwindcss',
+    'autoprefixer',
+
+    // PurgeCSS configuration
+    process.env.NODE_ENV === 'production'
+      ? purgecss({
+          content: ['./**/*.html'],
+        })
+      : false,
   ],
 }
