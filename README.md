@@ -33,11 +33,11 @@ $PROJECT_ROOT
     └── middleware.ts
 ```
 
-- `content/*`: MDX blog posts, projects and the content for the `about` page.
+- `content/*`: MDX blog posts, projects, and the content for the `about` page.
 - `messages/*`: Data for multi-language support
 - `prisma/*`: Database Model Definition
 - `public/*`: Static resource, like images
-- `src/app/*`: Every page and api route in the website. Uses the **App Router** from **Next.js 14**
+- `src/app/*`: Every page and API route in the website. Uses the **App Router** from **Next.js 14**
 - `src/components/*`: Components I use in the website. Note that the components in the **ui** folder will be smaller components, such as link, button, dropdown etc.
 - `src/providers/*`: Providers I use in the website
 - `src/config/*`: Some basic settings or static data
@@ -45,9 +45,9 @@ $PROJECT_ROOT
 - `src/lib/*`: a collection of helpful utilities or code for third-party services
 - `src/styles/*`: Global Styles with Tailwindcss
 - `src/types/*`: Some Global Types definitions
-- `src/utils/*`: Some utilities functions , but less complex than `lib/`
+- `src/utils/*`: Some utility functions, but less complex than `lib/`
 
-## 👋 Getting Start
+## 👋 Getting Started
 
 ```bash
 git clone https://github.com/mitmarcus/mitmarcus.com.git
@@ -56,9 +56,10 @@ cd mitmarcus.com
 pnpm install
 pnpm run dev
 ```
-
+- Remove `content/*`
+- Edit `messages/*`
 - Create `.env` file similar to `.env.example`.
-- Change `config/site.ts`, `config/giscus.ts`, `app/sitemap.ts` to your own and Remove `content/*`.
+- Change `config/site.ts`, `config/giscus.ts`, `app/sitemap.ts` to your own.
 
 ## 📝 TODO
 
